@@ -1,0 +1,12 @@
+2025-03-11 22:43:49.801122+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * FROM EMPLOYEE_DETAILS \000d\000a\000d\000aINSERT [*]INTO EMPLOYEE_DETAILS (ID, ADDRESS, IS_ACTIVE, NAME) \000d\000aVALUES (6, '123 Main Street, NY', TRUE, 'John Doe')"; SQL statement:
+select * FROM EMPLOYEE_DETAILS 
+
+INSERT INTO EMPLOYEE_DETAILS (ID, ADDRESS, IS_ACTIVE, NAME) 
+VALUES (6, '123 Main Street, NY', TRUE, 'John Doe') [42000-232]
+2025-03-11 22:46:13.797528+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * FROM EMPLOYEE_DETAILS \000d\000a\000d\000aINSERT [*]INTO EMPLOYEE_DETAILS (ID, ADDRESS, IS_ACTIVE, NAME) \000d\000aVALUES (6, '123 Main Street, NY', TRUE, 'John Doe')"; SQL statement:
+select * FROM EMPLOYEE_DETAILS 
+
+INSERT INTO EMPLOYEE_DETAILS (ID, ADDRESS, IS_ACTIVE, NAME) 
+VALUES (6, '123 Main Street, NY', TRUE, 'John Doe') [42000-232]
